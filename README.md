@@ -3,8 +3,8 @@ testi
 
 //tehtävän 15 tiedostojen sisällöt
 
-/* Hello World
-C:\Users\lpnik\myExpress\myexpress\hello_world\server.js:
+// Hello World
+//C:\Users\lpnik\myExpress\myexpress\hello_world\server.js:
 
 var express = require('express');
 var app = express();
@@ -19,10 +19,10 @@ var server = app.listen(8081, function () {
    
    console.log("Example app listening at http://%s:%s", host, port)
 })
-*/
 
-/* Basic routing
-#C:\Users\lpnik\myExpress\myexpress\basic_routing\server.js
+
+///Basic routing
+//C:\Users\lpnik\myExpress\myexpress\basic_routing\server.js
 
 var express = require('express');
 var app = express();
@@ -63,11 +63,11 @@ var server = app.listen(8081, function () {
    
    console.log("Example app listening at http://%s:%s", host, port)
 })
-*/
 
-/* Serving static files
-C:\Users\lpnik\myExpress\myexpress\serving_static_files\server.js
-C:\Users\lpnik\myExpress\myexpress\serving_static_files\public
+
+// Serving static files
+//C:\Users\lpnik\myExpress\myexpress\serving_static_files\server.js
+//C:\Users\lpnik\myExpress\myexpress\serving_static_files\public
 
 var express = require('express');
 var app = express();
@@ -84,10 +84,10 @@ var server = app.listen(8081, function () {
 
    console.log("Example app listening at http://%s:%s", host, port)
 })
-*/
 
-/* get method
-C:\Users\lpnik\myExpress\myexpress\get-method\server.js
+
+// get method
+//C:\Users\lpnik\myExpress\myexpress\get-method\server.js
 var express = require('express');
 var app = express();
 
@@ -125,10 +125,10 @@ C:\Users\lpnik\myExpress\myexpress\get-method\index.htm
       
    </body>
 </html>
-*/
 
-/*  post method
-C:\Users\lpnik\myExpress\myexpress\post_method\index.htm
+
+//post method
+//C:\Users\lpnik\myExpress\myexpress\post_method\index.htm
 <html>
    <body>
       
@@ -141,7 +141,7 @@ C:\Users\lpnik\myExpress\myexpress\post_method\index.htm
    </body>
 </html>
 
-C:\Users\lpnik\myExpress\myexpress\post_method\server.js
+//C:\Users\lpnik\myExpress\myexpress\post_method\server.js
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
@@ -170,10 +170,10 @@ var server = app.listen(8081, function () {
    
    console.log("Example app listening at http://%s:%s", host, port)
 })
-*/
 
-/* file upload
-C:\Users\lpnik\myExpress\myexpress\file_upload\index.htm
+
+//file upload
+//C:\Users\lpnik\myExpress\myexpress\file_upload\index.htm
 <html>
    <head>
       <title>File Uploading Form</title>
@@ -238,10 +238,10 @@ var server = app.listen(8081, function () {
    
    console.log("Example app listening at http://%s:%s", host, port)
 })
-*/
 
-/* cookies management
-C:\Users\lpnik\myExpress\myexpress\cookies_management\server.js
+
+//cookies management
+//C:\Users\lpnik\myExpress\myexpress\cookies_management\server.js
 var express      = require('express')
 var cookieParser = require('cookie-parser')
 
@@ -252,4 +252,4 @@ app.get('/', function(req, res) {
    console.log("Cookies: ", req.cookies)
 })
 app.listen(8081)
-*/
+
