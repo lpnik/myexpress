@@ -4,7 +4,7 @@ testi
 //tehtävän 15 tiedostojen sisällöt
 
 /* Hello World
-#C:\Users\lpnik\myExpress\myexpress\hello_world\server.js:
+C:\Users\lpnik\myExpress\myexpress\hello_world\server.js:
 
 var express = require('express');
 var app = express();
